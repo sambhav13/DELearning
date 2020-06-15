@@ -6,6 +6,8 @@ scalaVersion := "2.12.8"
 
 version in ThisBuild := "1.0-SNAPSHOT"
 
+publish / skip := true
+
 libraryDependencies ++= Seq(
 
   "ru.chermenin" %% "spark-states" % "0.2",
